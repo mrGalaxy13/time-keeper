@@ -1,57 +1,51 @@
 # ⬡ TimeKeeper PWA
 
-A minimalist, colorful time-block tracker for intentional daily planning.
+<div align="center">
 
-## Features
-- Set your day's start time
-- Create color-coded time blocks (Travel, Eating, Reading, etc.)
-- Tap a block to **start** the timer — it fades as time depletes
-- Tap again to **pause** — resume anytime within the same day
-- Warning alert when a block is exhausted
-- Persists across browser refresh (localStorage)
-- Fully **installable PWA** (works offline)
-- Resets automatically on a new day
+<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=700&size=28&duration=2500&pause=1200&color=7C3AED&center=true&vCenter=true&width=700&lines=Minimalist+Time+Block+Planner;Intentional+Daily+Planning;Colorful+%2B+Installable+PWA;Focus+on+What+Matters" alt="Typing Animation" />
 
-## How to Run
+<br/>
 
-### Option 1 — Local server (recommended)
-```bash
-npx serve .
-# or
-python3 -m http.server 8080
-```
-Then open `http://localhost:8080`
+<img src="https://img.shields.io/badge/PWA-Installable-7C3AED?style=for-the-badge&logo=pwa&logoColor=white"/>
+<img src="https://img.shields.io/badge/Offline-Supported-14B8A6?style=for-the-badge&logo=icloud&logoColor=white"/>
+<img src="https://img.shields.io/badge/LocalStorage-Persistent-F59E0B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Minimal-UI-111827?style=for-the-badge"/>
 
-### Option 2 — VSCode Live Server
-Open the folder in VSCode and click **Go Live**.
+<br/><br/>
 
-### Install as PWA
-1. Open in Chrome / Safari
-2. Chrome: click ⋮ menu → "Install app"
-3. Safari (iOS): tap Share → "Add to Home Screen"
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:06B6D4&height=120&section=header&text=TimeKeeper&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
 
-## Folder Structure
-```
-timekeeper/
-├── index.html          ← App shell & markup
-├── manifest.json       ← PWA manifest
-├── sw.js               ← Service worker (offline)
-├── css/
-│   └── style.css       ← All styles (dark, jewel-tone)
-├── js/
-│   ├── colors.js       ← Color palette & fade logic
-│   ├── storage.js      ← localStorage persistence
-│   └── app.js          ← All app logic
-└── icons/
-    ├── icon-192.png
-    └── icon-512.png
-```
+</div>
 
-## Color Philosophy
-Colors chosen based on cognitive science research:
-- **Coral** (#FF6B6B) — energy, urgency
-- **Teal** (#4ECDC4) — focus, calm  
-- **Amber** (#FFD93D) — attention, optimism
-- **Violet** (#A78BFA) — creativity, relaxation
-- **Lime** (#6EE7B7) — freshness, growth
-- And more — each with scientifically-tuned saturation/brightness
+---
+
+## ✨ Features
+
+<div align="center">
+
+| 🚀 Feature | 💡 Description |
+|---|---|
+| ⏰ Day Start | Set your day's starting time |
+| 🎨 Color Blocks | Create beautiful color-coded activity blocks |
+| ▶️ Smart Timer | Tap a block to start countdown tracking |
+| ⏸ Pause & Resume | Continue anytime within the same day |
+| ⚠️ Exhaust Alerts | Get warned when a block is depleted |
+| 💾 Persistent State | Saves automatically using localStorage |
+| 📱 Installable PWA | Works like a native app |
+| 🌐 Offline Support | Fully functional without internet |
+| 🔄 Daily Reset | Automatically refreshes every new day |
+
+</div>
+
+---
+
+# 🎬 Live Interaction Flow
+
+<div align="center">
+
+```mermaid
+flowchart LR
+    A[Create Block] --> B[Start Timer]
+    B --> C[Fade Animation]
+    C --> D[Pause / Resume]
+    D --> E[Completion Alert]
